@@ -1,0 +1,15 @@
+{
+    "logo": "mac_small",
+    "modules": [
+        "OS",
+        "Kernel",
+        "Uptime",
+        "Shell",
+        "CPU",
+        "RAM",
+        {
+        "type": "Disk",
+        "folders": ["~"]
+        }
+    ]
+}
