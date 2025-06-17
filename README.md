@@ -31,7 +31,7 @@ O script irá:
 
 * Verificar se o Fastfetch está instalado e instalar caso não esteja (suporta `dnf` e `apt`).
 * Criar o diretório `~/.config/fastfetch` caso não exista.
-* Copiar o arquivo `fastfetch.config.json` para o diretório de configuração.
+* Copiar o arquivo `minimal.json` para o diretório de configuração.
 
 4. Para rodar o Fastfetch com a configuração aplicada, use:
 
