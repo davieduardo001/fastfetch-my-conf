@@ -18,7 +18,7 @@ Este repositório contém uma configuração personalizada do [Fastfetch](https:
 2. Dê permissão de execução ao script:
 
 ```bash
-chmod +x apply-fastfetch-config.sh
+chmod +x apply.sh
 ```
 
 3. Execute o script para aplicar a configuração:
