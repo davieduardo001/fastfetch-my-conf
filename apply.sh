@@ -28,4 +28,4 @@ echo "Copiando arquivo de configuração para $CONFIG_DIR ..."
 cp "./$HOME_FILE" "$CONFIG_DIR"
 
 echo "Configuração aplicada! Você pode executar:"
-echo "  fastfetch --load-config fastfetch.config"
+echo "  fastfetch --load-config minimal"
