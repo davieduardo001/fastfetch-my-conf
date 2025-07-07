@@ -2,8 +2,8 @@
 
 CONFIG_DIR="$HOME/.config/fastfetch"
 
-HOME_DIR="$HOME/configs/fasfetch"
-HOME_FILE="$HOME/configs/fastfetch/minimal.jsonc"
+HOME_DIR="$HOME/configs/fastfetch-my-conf"
+HOME_FILE="$HOME/configs/fastfetch-my-conf/minimal.jsonc"
 
 # Verifica se o fastfetch está instalado
 if command -v fastfetch >/dev/null 2>&1; then
