@@ -1,5 +1,5 @@
 {
-    "logo": "mac_small",
+    "logo": "arch_small",
     "modules": [
         "OS",
         "Kernel",

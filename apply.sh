@@ -25,7 +25,7 @@ echo "Criando diretório de configuração, se não existir..."
 mkdir -p "$CONFIG_DIR"
 
 echo "Copiando arquivo de configuração para $CONFIG_DIR ..."
-cp "./$HOME_FILE" "$CONFIG_DIR"
+cp "$HOME_FILE" "$CONFIG_DIR"
 
 echo "Configuração aplicada! Você pode executar:"
 echo "  fastfetch --load-config minimal"
