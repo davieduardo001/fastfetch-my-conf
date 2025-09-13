@@ -1,5 +1,5 @@
 {
-    "logo": "chromeos",
+    "logo": "mac_small",
     "modules": [
         "OS",
         "Kernel",

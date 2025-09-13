@@ -17,6 +17,25 @@ else
     sudo apt update && sudo apt install -y fastfetch
   else
     echo "Por favor, instale o fastfetch manualmente."
+    echo "Esta usando variante de ubuntu? [Y/n]"
+read eh_ubuntu_debian
+
+if [[ "$eh_ubuntu_debian" == "Y" || "$eh_ubuntu_debian" == "y" ]]; then
+    echo "Baixando e instalando o pacote .deb..."
+    wget -P "$HOME" https://github.com/fastfetch-cli/fastfetch/releases/download/2.52.0/fastfetch-linux-amd64.deb
+    sudo dpkg -i "$HOME/fastfetch-linux-amd64.deb"
+
+    # Corrige dependências caso a instalação falhe
+    sudo apt-get install -f
+
+    # Remove o arquivo .deb após a instalação
+    rm "$HOME/fastfetch-linux-amd64.deb"
+    
+    echo "Instalação do fastfetch concluída."
+else
+    echo "Não foi possível instalar o fastfetch. O script suporta apenas variantes de Ubuntu e Debian."
+fi
+      
     exit 1
   fi
 fi
